@@ -1,7 +1,7 @@
 /* COLORS /*
 color-primary : #1976D2;
 color-primary-dark : #0D47A1;
-color-dark : #212121;
+color-grey-dark : #424242;
 */
 
 /* GENERAL */
@@ -37,13 +37,18 @@ html {
 }
 
 .infos h3 {
-    background-color: #212121;
+    background-color: #424242;
     color: #1976D2;
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem 0;
     text-align: center;
     text-transform: uppercase;
+}
+
+.infos p {
+    color: #424242;
+    font-size: 1.2rem;
 }
 
 .photo {
@@ -56,13 +61,64 @@ img {
     border-radius: 50%;
 }
 
-.perso {
-    padding: 0 4.5rem;
+.perso, 
+.about p, 
+.hobbys__icons {
+    padding: 3.5rem 4.5rem;
+}
+
+.perso p {
+    margin-bottom: 2rem;
+}
+
+.perso p:last-child {
+    margin-bottom: 0;
+}
+
+.perso a, 
+.perso a:link, 
+.perso a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .about {
     flex: 1;
 }
+
+.about p {
+    text-align: justify;
+}
+
+.hobbys {
+    text-align: center;
+}
+
+.hobbys__icons {
+    display: flex;
+    justify-content: space-evenly;
+    color: #424242;
+    font-size: 5rem;
+}
+
+.hobbys__item {
+    border: 3px solid #424242;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.hobbys__item:first-child {
+
+}
+
+.hobbys__item:nth-child(2) {
+
+}
+
+.hobbys__item:last-child {
+
+}
+
 /* PARTIE MAIN */
 .curriculum {
     width: 70%;
