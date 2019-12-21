@@ -16,6 +16,7 @@ color-grey-dark : #424242;
 body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
 }
 
 html {
@@ -34,20 +35,51 @@ header {
     height: 30.5rem;
 }
 
+h1, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+h2, h4, h5 {
+    font-weight: 400;
+}
+
 h1 {
+    color: #000;
     font-size: 5rem;
     font-weight: 100;
-    text-transform: uppercase;
 }
 
 h2 {
     color: #424242;
     font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 2.2rem;
+}
+
+h5 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+h6 {
+    font-size: 1.7rem;
     font-weight: 300;
+    margin: 1rem 0;
 }
 
 article {
     width: 50%;
+}
+
+section {
+    margin-bottom: 6rem;
 }
 
 .container {
@@ -67,16 +99,13 @@ article {
 .infos h3 {
     background-color: #424242;
     color: #1976D2;
-    font-size: 2rem;
-    font-weight: bold;
     padding: 1rem 0;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .infos p {
     color: #424242;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .photo {
@@ -128,16 +157,17 @@ article {
     border: 2px solid #424242;
     border-radius: 50%;
     color: #424242;
-    width: 6rem;
-    height: 6rem;
-    padding: 1rem;
+    width: 7rem;
+    height: 7rem;
+    padding: 1.3rem;
 }
 
 /* PARTIE MAIN */
 .curriculum {
-    width: 67%;
+    color: #424242;
     padding-left: 4.5rem;
     padding-right: 3.5rem;
+    width: 67%;
 }
 
 .prenom {
@@ -149,17 +179,76 @@ article {
     border-bottom: 2px solid #1976D2;
 }
 
+.section__heading {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid #1976D2;
+    margin-bottom: 3rem;
+    padding-bottom: .6rem;
+}
+
 .section__heading h3 {
+    color: #000;
     display: inline-block;
+}
+
+.formation .fa-university, 
+.experience .fa-briefcase, 
+.recommandation .fa-pencil-alt {
+    color: #1976D2;
+    font-size: 3.6rem;
+    margin-right: 2.5rem;
 }
 
 .list--item {
     display: flex;
+    align-items: flex-start;
     list-style-type: none;
+    margin-bottom: 3rem;
+}
+
+.list--item:last-child {
+    margin-bottom: 0;
+}
+
+.fa-dot-circle, 
+.fa-circle {
+    color: #1976D2;
+    font-size: 1.4rem;
+}
+
+.item--date {
+    display: flex;
+    width: 33%;
+}
+
+.item--date p {
+    margin-left: 1.5rem;
+}
+
+.item--details {
+    width: 67%;
+}
+
+.item--details p {
+    font-weight: 300;
+}
+
+.recommandation .email {
+    font-weight: 300;
+}
+
+.recommandation a {
+    color: #424242;
+    text-decoration: none;
 }
 
 .recommandation__container {
     display: flex;
+}
+
+article p {
+    margin-bottom: .5rem;
 }
 
 /* MEDIA QUERIES */
