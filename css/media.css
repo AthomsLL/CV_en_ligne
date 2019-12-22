@@ -1,0 +1,203 @@
+/****** BREAKPOINTS ******
+small = 576px;
+medium = 768px;
+large = 992px;
+x-large = 1200px;
+*************************/
+
+@media screen and (max-width: 1200px) {
+    .item--date {
+        width: 40%;
+    }
+
+    .item--details {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    /* PARTIE ASIDE */
+    .perso, 
+    .about p, 
+    .hobbys__icons {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .hobbys .hobbys__icons .fa-file-code, 
+    .hobbys .hobbys__icons .fa-futbol, 
+    .hobbys .hobbys__icons .fa-gamepad {
+        width: 6.3rem;
+        height: 6.3rem;
+        padding: 1.1rem;
+    }
+
+    /* PARTIE MAIN */
+    .formation .fa-university, 
+    .experience .fa-briefcase, 
+    .recommandation .fa-pencil-alt {
+        font-size: 3.1rem;
+    }
+
+    .recommandation__container p {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h4 {
+        margin-top: 1.3rem;
+    }
+
+    h6 {
+        margin-bottom: 1.5rem;
+    }
+
+    img {
+        border: 4px solid #1976D2;
+        border-radius: 50%;
+    }
+
+    section {
+        margin-bottom: 4rem;
+    }
+
+    section:last-child {
+        margin-bottom: 0;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .infos, 
+    .curriculum {
+        width: 100%;
+    }
+
+    /* PARTIE ASIDE */
+    .hobbys {
+        display: none;
+    }
+
+    .photo {
+        background-color: #fff;
+        padding: 3rem 0;
+    }
+
+    .name-resp {
+        display: block;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .prenom-resp {
+        color: #1976D2;
+        font-weight: 400;
+    }
+    
+    .heading__primary--sub-resp span {
+        border-bottom: 2px solid #1976D2;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    /* PARTIE MAIN */
+    .curriculum {
+        margin-top: 3rem;
+        padding: 0 3.5rem;
+    }
+
+    .heading__primary {
+        display: none;
+    }
+
+    .list--item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .item--date {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .item--details {
+        width: 100%;
+    }
+
+    .item--details p {
+        text-align: justify;
+    }
+
+    .hobbys__resp {
+        background-color: #1976D2;
+        display: block;
+        margin: 0 -3.5rem;
+        text-align: center;
+    }
+
+    .hobbys__resp h3 {
+        background-color: #424242;
+        color: #1976D2;
+        padding: 1rem 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hobbys__resp--icons {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 3.5rem 0;
+    }
+    
+    .hobbys__resp .hobbys__resp--icons .fa-file-code, 
+    .hobbys__resp .hobbys__resp--icons .fa-futbol, 
+    .hobbys__resp .hobbys__resp--icons .fa-gamepad {
+        border: 2px solid #424242;
+        border-radius: 50%;
+        color: #424242;
+        width: 7rem;
+        height: 7rem;
+        padding: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    article {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+
+    article:last-child {
+        margin-bottom: 0;
+    }
+
+    /* PARTIE MAIN */
+    .recommandation__container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        margin-top: .5rem;
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+}
+

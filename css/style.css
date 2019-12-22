@@ -1,8 +1,8 @@
-/* COLORS /*
+/******** COLORS ******** 
 color-primary : #1976D2;
 color-primary-dark : #0D47A1;
 color-grey-dark : #424242;
-*/
+************************/
 
 /* GENERAL */
 *, 
@@ -13,26 +13,14 @@ color-grey-dark : #424242;
     box-sizing: inherit;
 }
 
-body {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-}
-
 html {
     font-size: 62.5%;
 }
 
-img {
-    border: 4px solid #0D47A1;
-    border-radius: 50%;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 30.5rem;
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
 }
 
 h1, h3, h4, h5 {
@@ -74,6 +62,18 @@ h6 {
     margin: 1rem 0;
 }
 
+img {
+    border: 4px solid #0D47A1;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30.5rem;
+}
+
 article {
     width: 50%;
 }
@@ -111,6 +111,10 @@ section {
 .photo {
     padding: 4.5rem 0;
     text-align: center;
+}
+
+.name-resp {
+    display: none;
 }
 
 .perso, 
@@ -251,4 +255,6 @@ article p {
     margin-bottom: .5rem;
 }
 
-/* MEDIA QUERIES */
+.hobbys__resp {
+    display: none;
+}
