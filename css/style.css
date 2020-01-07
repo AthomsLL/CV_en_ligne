@@ -1,7 +1,7 @@
 /******** COLORS ******** 
-color-primary : #1976D2;
-color-primary-dark : #0D47A1;
-color-grey-dark : #424242;
+color-primary : #339BFF;
+color-primary-dark : #02509C;
+color-dark : #424242;
 ************************/
 
 /* GENERAL */
@@ -63,7 +63,7 @@ h6 {
 }
 
 img {
-    border: 4px solid #0D47A1;
+    border: 4px solid #02509C;
     border-radius: 50%;
 }
 
@@ -90,7 +90,7 @@ section {
 
 /* PARTIE ASIDE */
 .infos {
-    background-color: #1976D2;
+    background-color: #339BFF;
     display: flex;
     flex-direction: column;
     width: 33%;
@@ -98,7 +98,7 @@ section {
 
 .infos h3 {
     background-color: #424242;
-    color: #1976D2;
+    color: #339BFF;
     padding: 1rem 0;
     text-align: center;
 }
@@ -175,18 +175,18 @@ section {
 }
 
 .prenom {
-    color: #1976D2;
+    color: #339BFF;
     font-weight: 400;
 }
 
 .heading__primary--sub span {
-    border-bottom: 2px solid #1976D2;
+    border-bottom: 2px solid #339BFF;
 }
 
 .section__heading {
     display: flex;
     align-items: flex-start;
-    border-bottom: 2px solid #1976D2;
+    border-bottom: 2px solid #339BFF;
     margin-bottom: 3rem;
     padding-bottom: .6rem;
 }
@@ -199,7 +199,7 @@ section {
 .formation .fa-university, 
 .experience .fa-briefcase, 
 .recommandation .fa-pencil-alt {
-    color: #1976D2;
+    color: #339BFF;
     font-size: 3.6rem;
     margin-right: 2.5rem;
 }
@@ -217,7 +217,7 @@ section {
 
 .fa-dot-circle, 
 .fa-circle {
-    color: #1976D2;
+    color: #339BFF;
     font-size: 1.4rem;
 }
 
