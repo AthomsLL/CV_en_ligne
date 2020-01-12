@@ -152,7 +152,7 @@ x-large = 1200px;
     }
 
     .hobbys__resp h3 {
-        background-color: #424242;
+        background-color: #303030;
         color: #339BFF;
         padding: 1rem 0;
         text-align: center;
@@ -168,9 +168,9 @@ x-large = 1200px;
     .hobbys__resp .hobbys__resp--icons .fa-file-code, 
     .hobbys__resp .hobbys__resp--icons .fa-futbol, 
     .hobbys__resp .hobbys__resp--icons .fa-gamepad {
-        border: 2px solid #424242;
+        border: 2px solid #303030;
         border-radius: 50%;
-        color: #424242;
+        color: #303030;
         width: 6.9rem;
         height: 6.9rem;
         padding: 1.4rem;
