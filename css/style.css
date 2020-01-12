@@ -23,12 +23,16 @@ body {
     font-size: 1.6rem;
 }
 
-h1, h3, h4, h5 {
+h1, h3, h4, h6 {
     text-transform: uppercase;
 }
 
 h2, h4, h5 {
     font-weight: 400;
+}
+
+h5, h6 {
+    font-size: 1.7rem;
 }
 
 h1 {
@@ -52,14 +56,12 @@ h4 {
 }
 
 h5 {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
+    font-weight: 300;
+    margin: 1rem 0;
 }
 
 h6 {
-    font-size: 1.7rem;
-    font-weight: 300;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 img {
